@@ -1,0 +1,7 @@
+server:
+  port: 8050
+bmi:
+  url: https://bmi.p.rapidapi.com/v1/bmi
+  x-rapidapi-key: 2b4f89c9efmsh4b031565c8bb6a6p133612jsn1bf7e5058212
+  x-rapidapi-host: bmi.p.rapidapi.com
+  content-Type: application/json
