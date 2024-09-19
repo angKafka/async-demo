@@ -1,0 +1,29 @@
+.skill-img{
+    width: 50px !important;
+    height: auto;
+}
+
+#earth {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: transparent url("https://i.imgur.com/Qk4UXcU.png");
+    background-size: cover;
+    box-shadow: 
+        inset 0px -20px 50px 10px #06f,  
+        0px 0px 30px 6px #06f; 
+    transform-style: preserve-3d;
+    transform: rotate(20deg);
+    animation: rotate 15s linear infinite;
+}
+
+
+@keyframes rotate {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 530px 0;
+    }
+}

@@ -1,0 +1,9 @@
+.navbar-font{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 800;
+    background: linear-gradient(135deg, rgb(2, 76, 187) 11%, rgb(0, 0, 102) 48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

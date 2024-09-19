@@ -1,6 +1,6 @@
 package arrays;
 
-public class Delloite {
+public class Deloite {
     static int duplicateMax(int[] nums) {
         int maxSum = Integer.MIN_VALUE;
         int store = 0;

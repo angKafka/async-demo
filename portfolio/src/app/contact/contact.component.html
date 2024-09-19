@@ -1,0 +1,57 @@
+<section class="section section-light-down section-top section-trim-bottom">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col">
+          <header class="section-header section-header-lg">
+            <div class="section-header-eyebrow">About me</div>
+            <h1 class="section-header-title">
+            Contact Me
+            </h1>
+          </header>
+        </div>
+        <div class="col align-self-end text-center d-none d-lg-block">
+          <img class="img-fluid" src="https://www.opentext.com/assets/images/shared/opentext-image-lp-contact-us-a-en.png" alt="" width="718" height="346">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-6 pt-md-7 pt-lg-8 mt-lg-4">
+    <div class="container">
+        <div class="card card-body card-body-lg card-primary-top border-sm-0 shadow shadow-sm-0 mb-4 mb-md-8 mb-lg-0 p-0 py-md-8">
+            <h2 class="text-center mb-5">Fill in the details</h2>
+            <form action="your-backend-endpoint" method="POST" class="px-4">
+                <div class="row">
+                    <!-- Name -->
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                
+                <!-- Subject -->
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required>
+                </div>
+                
+                <!-- Message -->
+                <div class="mb-4">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
