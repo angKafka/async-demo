@@ -1,0 +1,8 @@
+spring:
+    application:
+          name: movie-recomdendation-system
+    kafka:
+      bootstrap-servers: localhost:9092
+      consumer:
+        group-id: movie-recommendation-group
+        auto-offset-reset: earliest
